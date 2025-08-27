@@ -1,0 +1,28 @@
+{
+  "2407.21059v1": {
+    "title": "Modular RAG: Transforming RAG Systems into LEGO-like Reconfigurable Frameworks",
+    "authors": [
+      "Yunfan Gao",
+      "Yun Xiong",
+      "Meng Wang",
+      "Haofen Wang"
+    ],
+    "summary": "Retrieval-augmented Generation (RAG) has markedly enhanced the capabilities\nof Large Language Models (LLMs) in tackling knowledge-intensive tasks. The\nincreasing demands of application scenarios have driven the evolution of RAG,\nleading to the integration of advanced retrievers, LLMs and other complementary\ntechnologies, which in turn has amplified the intricacy of RAG systems.\nHowever, the rapid advancements are outpacing the foundational RAG paradigm,\nwith many methods struggling to be unified under the process of\n\"retrieve-then-generate\". In this context, this paper examines the limitations\nof the existing RAG paradigm and introduces the modular RAG framework. By\ndecomposing complex RAG systems into independent modules and specialized\noperators, it facilitates a highly reconfigurable framework. Modular RAG\ntranscends the traditional linear architecture, embracing a more advanced\ndesign that integrates routing, scheduling, and fusion mechanisms. Drawing on\nextensive research, this paper further identifies prevalent RAG\npatterns-linear, conditional, branching, and looping-and offers a comprehensive\nanalysis of their respective implementation nuances. Modular RAG presents\ninnovative opportunities for the conceptualization and deployment of RAG\nsystems. Finally, the paper explores the potential emergence of new operators\nand paradigms, establishing a solid theoretical foundation and a practical\nroadmap for the continued evolution and practical deployment of RAG\ntechnologies.",
+    "pdf_url": "http://arxiv.org/pdf/2407.21059v1",
+    "published": "2024-07-26"
+  },
+  "2501.00353v1": {
+    "title": "RAG-Instruct: Boosting LLMs with Diverse Retrieval-Augmented Instructions",
+    "authors": [
+      "Wanlong Liu",
+      "Junying Chen",
+      "Ke Ji",
+      "Li Zhou",
+      "Wenyu Chen",
+      "Benyou Wang"
+    ],
+    "summary": "Retrieval-Augmented Generation (RAG) has emerged as a key paradigm for\nenhancing large language models (LLMs) by incorporating external knowledge.\nHowever, current RAG methods face two limitations: (1) they only cover limited\nRAG scenarios. (2) They suffer from limited task diversity due to the lack of a\ngeneral RAG dataset. To address these limitations, we propose RAG-Instruct, a\ngeneral method for synthesizing diverse and high-quality RAG instruction data\nbased on any source corpus. Our approach leverages (1) five RAG paradigms,\nwhich encompass diverse query-document relationships, and (2) instruction\nsimulation, which enhances instruction diversity and quality by utilizing the\nstrengths of existing instruction datasets. Using this method, we construct a\n40K instruction dataset from Wikipedia, comprehensively covering diverse RAG\nscenarios and tasks. Experiments demonstrate that RAG-Instruct effectively\nenhances LLMs' RAG capabilities, achieving strong zero-shot performance and\nsignificantly outperforming various RAG baselines across a diverse set of\ntasks. RAG-Instruct is publicly available at\nhttps://github.com/FreedomIntelligence/RAG-Instruct.",
+    "pdf_url": "http://arxiv.org/pdf/2501.00353v1",
+    "published": "2024-12-31"
+  }
+}
